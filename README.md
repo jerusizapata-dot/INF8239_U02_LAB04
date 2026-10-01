@@ -166,11 +166,11 @@ La métrica principal utilizada fue **F1 Macro**, debido a que permite considera
 
 | ---------------------- | ---------: |
 
-| Logistic Regression    | **0.6933** |
+| Logistic Regression    | **0.7021** |
 
-| Complement Naive Bayes | **0.6491** |
+| Complement Naive Bayes | 0.6590 |
 
-| DummyClassifier        | **0.0355** |
+| DummyClassifier        | 0.0356 |
 
 El archivo con los resultados completos se encuentra en:
 
@@ -178,31 +178,37 @@ El archivo con los resultados completos se encuentra en:
 
 ### Interpretación
 
-Los dos modelos supervisados superaron ampliamente la línea base. Logistic Regression obtuvo un F1 Macro de 0.6933, mientras que Complement Naive Bayes obtuvo 0.6491.
+Los dos modelos supervisados superaron ampliamente la línea base. Logistic Regression obtuvo un F1 Macro de 0.7021, mientras que Complement Naive Bayes obtuvo 0.6590.
 
-La diferencia entre ambos modelos fue de aproximadamente 0.0442 puntos de F1 Macro.
+La diferencia entre ambos modelos fue de aproximadamente 0.0431 puntos de F1 Macro.
 
 El resultado muestra que las representaciones TF-IDF permiten capturar señales útiles para distinguir los estilos presentes en este corpus. Sin embargo, el desempeño no implica que el modelo pueda clasificar correctamente cualquier texto en español, debido al carácter sintético y específico del dataset.
 
 ## Análisis de errores
 
-El conjunto de evaluación produjo **424 errores**.
+El conjunto de evaluación produjo **412 errores**.
 
-Se revisaron manualmente los primeros **20 errores** y se clasificaron según la naturaleza observable del caso:
+Se revisaron manualmente los **30 errores** y se clasificaron según la naturaleza observable del caso:
 
 | Categoría          |  Casos |
 
 | ------------------ | -----: |
 
-| Ambigüedad         |     13 |
+| Solapamiento de estilos | 9 |
 
-| Texto insuficiente |      5 |
+| Señales mixtas | 7 |
 
-| Ironía             |      2 |
+| Ironía | 4 |
 
-| **Total revisado** | **20** |
+| Insuficiente texto | 4 |
 
-Los errores de **ambigüedad** fueron los más frecuentes entre los casos revisados. Algunos textos contienen señales compatibles con más de un estilo pragmático.
+| Ambigüedad | 4 |
+
+| Lenguaje coloquial | 2 |
+
+| **Total categorizado** | **30** |
+
+Los casos revisados se concentraron principalmente en solapamiento de estilos y señales mixtas. Algunos textos contienen señales compatibles con más de un estilo pragmático.
 
 Los casos de **texto insuficiente** presentan pocas palabras o poca información contextual para distinguir entre categorías. También se observaron casos en los que la interpretación depende de ironía o de señales pragmáticas difíciles de representar mediante características TF-IDF.
 
@@ -238,7 +244,7 @@ Estas confusiones muestran que varias categorías comparten señales lingüísti
 
 # Modelo seleccionado para la demostración
 
-Para la demostración de LAB05 se conserva el modelo de **Logistic Regression**, que obtuvo un F1 Macro de 0.6933 en la evaluación realizada.
+Para la demostración de LAB05 se conserva el modelo de **Logistic Regression**, que obtuvo un F1 Macro de 0.7021 en la evaluación realizada.
 
 El modelo serializado se encuentra en:
 
@@ -330,19 +336,19 @@ uv export --format requirements.txt --output-file requirements-cloud.txt
 
 # Conclusión de LAB05
 
-**Resultado principal:** El experimento permitió transformar el corpus auditado de reseñas sintéticas HORECA en español en un problema reproducible de clasificación de texto. Se compararon un DummyClassifier como referencia, Complement Naive Bayes y regresión logística utilizando TF-IDF dentro de pipelines. La regresión logística obtuvo el mayor F1 macro, con 0.6933, frente a 0.6491 para Naive Bayes y 0.0355 para el baseline Dummy. Esto muestra una mejora clara respecto de la referencia mínima y evidencia que las representaciones TF-IDF permiten capturar patrones útiles para distinguir las nueve clases de estilo.
+**Resultado principal:** El experimento permitió construir un flujo reproducible de clasificación de texto a partir de un corpus público de reseñas sintéticas del dominio HORECA en español. La auditoría inicial registró 5,716 observaciones y detectó 23 textos duplicados, además de un texto con etiquetas conflictivas. Para el modelado se excluyeron las observaciones asociadas al conflicto y posteriormente se eliminaron los duplicados restantes, obteniendo 5,692 registros. Se compararon DummyClassifier, Complement Naive Bayes y Logistic Regression utilizando TF-IDF dentro de pipelines y una partición estratificada con semilla 42.
 
-**Modelo seleccionado y evidencia:** Para la demostración se seleccionó la regresión logística porque obtuvo el mejor F1 macro entre los clasificadores evaluados. El resultado debe interpretarse considerando que la evaluación se realizó mediante una partición estratificada con semilla 42 y que el vectorizador permaneció dentro del pipeline, evitando utilizar información del conjunto de prueba durante el ajuste de la representación textual. Además, el modelo fue guardado como `models/text_model.joblib` y pudo cargarse posteriormente para producir nuevas predicciones.
+**Modelo seleccionado y evidencia:** Logistic Regression obtuvo un F1 Macro de 0.7021, frente a 0.6590 para Complement Naive Bayes y 0.0356 para DummyClassifier. La diferencia entre Logistic Regression y Complement Naive Bayes fue de aproximadamente 0.0431 puntos de F1 Macro. El modelo fue serializado en `models/text_model.joblib`, cargado posteriormente y utilizado para generar una predicción de prueba. Esto confirma la reproducibilidad de la carga del artefacto, pero no demuestra que una predicción individual sea correcta.
 
-**Clase con mayor dificultad:** La clase coloquial presentó uno de los desempeños más bajos, con recall de 0.54 y F1 de 0.59. Esto indica que una proporción importante de los ejemplos realmente pertenecientes a esta clase fue asignada a otras categorías. La matriz de confusión muestra además confusiones frecuentes entre clases cercanas, como coloquial y entusiasta, lo que sugiere que algunas características léxicas pueden ser compartidas entre diferentes estilos.
+**Clase con mayor dificultad:** La clase `coloquial` presentó un desempeño relativamente bajo, con recall de 0.54 y F1 de 0.61 en la ejecución actual. Esto indica que una parte de los ejemplos pertenecientes a esta clase fue asignada a otras categorías. Las confusiones entre estilos cercanos muestran que algunas expresiones comparten características léxicas o pragmáticas.
 
-**Tipo de error más frecuente:** En los primeros 20 errores analizados, la categoría predominante fue ambigüedad, con 13 casos, seguida de texto insuficiente con 5 e ironía con 2. Estos errores muestran que una representación basada en palabras puede tener dificultades cuando el estilo depende del contexto, de expresiones breves o de significados que no están explícitos en los términos utilizados.
+**Tipo de error más frecuente:** Se identificaron 412 errores en el conjunto de evaluación y se categorizaron manualmente 30. Las categorías utilizadas fueron solapamiento de estilos, señales mixtas, ironía, insuficiente texto, ambigüedad y lenguaje coloquial. Estos casos muestran que algunas decisiones de etiquetado dependen del contexto y de señales pragmáticas que TF-IDF no representa completamente.
 
-**Impacto en el contexto:** Las predicciones deben entenderse como resultados condicionados por los datos utilizados para entrenar el modelo. Una etiqueta incorrecta puede afectar la interpretación automática del estilo de una reseña, especialmente cuando existen clases semánticamente cercanas. Por esta razón, la aplicación incorpora una advertencia sobre el alcance del modelo y no debe utilizarse como clasificador general del idioma español.
+**Impacto en el contexto:** Una predicción incorrecta puede producir una interpretación equivocada del estilo de una reseña. Por ello, las salidas deben considerarse resultados del modelo y no verdades sobre el texto. La aplicación incluye una advertencia explícita sobre el alcance de la herramienta.
 
-**Limitación del dataset:** El corpus utilizado corresponde a reseñas sintéticas y está asociado específicamente al dominio HORECA. Aunque cuenta con licencia MIT, una estructura documentada y 5,716 registros auditados, no representa necesariamente reseñas reales de toda la población hispanohablante ni otros dominios textuales. Además, la auditoría identificó 23 textos duplicados, que son eliminados por el flujo de entrenamiento antes de construir los datos utilizados por los modelos.
+**Limitación del dataset:** El corpus es sintético y específico del dominio HORECA. Aunque posee una licencia identificada y un proceso reproducible de obtención, no representa estadísticamente reseñas reales de toda la población hispanohablante ni permite asumir comportamiento equivalente en otros dominios. Además, la auditoría identificó 23 textos duplicados y un conflicto de etiquetas que fueron tratados antes del modelado.
 
-**Decisión antes del despliegue:** La aplicación local puede utilizarse como demostración técnica y educativa del pipeline desarrollado. Antes de una publicación para uso real sería necesario evaluar el modelo con datos reales e independie
+**Decisión antes del despliegue:** El sistema queda documentado como una demostración académica reproducible. Antes de cualquier utilización fuera del laboratorio sería necesario realizar una evaluación adicional con datos reales e independientes, revisar la estabilidad de las métricas, comprobar el comportamiento por clase y validar que las categorías sean apropiadas para el nuevo contexto.
 
 ## Estructura relevante
 

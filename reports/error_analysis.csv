@@ -1,46 +1,40 @@
 text,real,predicted,category
-La terraza en primavera es un lujo total bajo los árboles. La cerveza de la casa es suave y entra sola. El servicio fue un poco despistado con las servilletas.,anecdótico,coloquial,ambigüedad
-"¡Brutal! El mejor alto en el camino que puedes hacer. Comida rica, abundante y a un precio muy justo. ¡Cinco estrellas!",entusiasta,breve,texto insuficiente
-Café de sabor quemado y amargo debido a un mal mantenimiento de la maquinaria.,formal,breve,ambigüedad
-"La decoración estilo 'trastero de mi abuelo mezclado con bingo' es fascinante. El café sabe a amargura existencial, pero el azúcar era de marca.",sarcástico,anecdótico,ironía
-"La selección de quesos nacionales es magnífica. El plato principal de rodaballo estaba bien resuelto, aunque el tiempo de reserva fue estricto.",neutral,constructivo,ambigüedad
-Servicio excesivamente lento y trato poco amable.,neutral,breve,texto insuficiente
-Esperaba mucho más de un chef con ese renombre. Una ejecución muy irregular.,crítico,constructivo,ambigüedad
-La variedad del menú del día es algo escasa y repetitiva en días consecutivos.,formal,neutral,ambigüedad
-Tienen mil tipos de cerveza y todas buenísimas.,breve,constructivo,ambigüedad
-Me gusta venir los domingos a mediodía por el aperitivo. Las aceitunas aliñadas son un vicio con la vermú de grifo. La única pega es que la terraza siempre está a tope.,anecdótico,entusiasta,ambigüedad
-Casi un 5.,breve,sarcástico,texto insuficiente
-Terraza mal organizada y servicio despistado.,neutral,breve,texto insuficiente
-"El trato del dueño es bueno, pero el resto del equipo parece que está allí por obligación.",coloquial,sarcástico,ironía
-"La ensaladilla rusa es harina de otro costal, ¡buenísima!",coloquial,entusiasta,ambigüedad
-"La pericia del barista es notable, logrando una emulsión de la leche perfecta. Sublime.",formal,neutral,ambigüedad
-La cuenta incluía artículos que no se consumieron.,neutral,crítico,ambigüedad
-"Tapas clásicas que no fallan, pero la música era un pelín machacona.",coloquial,anecdótico,ambigüedad
-El personal de barra mantuvo una actitud de indiferencia ante las reclamaciones técnicas.,neutral,formal,ambigüedad
-"Está bien para una vez, pero no me entusiasmó.",breve,coloquial,texto insuficiente
-"La música está guay, pero a un volumen que tienes que hablar por señas con el de al lado.",coloquial,anecdótico,ambigüedad
-Servicio de sala estándar. El café es correcto aunque el tueste resultó algo fuerte.,formal,neutral,REVISAR
-Gran selección.,breve,formal,REVISAR
-Servicio impersonal pero eficiente en lo básico.,neutral,breve,REVISAR
-Sitio acogedor a más no poder. La chimenea encendida le da un toque especial.,coloquial,entusiasta,REVISAR
-La cuenta llegó con un error de 20 euros a su favor. Es admirable lo bien que dominan la aritmética creativa.,sarcástico,crítico,REVISAR
-Diligencia en el servicio incluso con el local al máximo de su capacidad.,formal,neutral,REVISAR
-"Buen sitio para camioneros. Platos contundentes, aunque echo de menos alguna opción más saludable o ligera en el menú.",crítico,constructivo,REVISAR
-"El trato es profesional pero distante. La comida llegó caliente y a tiempo, aunque faltaba sal en casi todos los platos.",crítico,neutral,REVISAR
-Pedí una tostada y el pan estaba duro como una piedra. Malísimo.,coloquial,crítico,REVISAR
-"El personal conoce bien el producto, pero podrían explicar mejor las diferencias entre los tipos de café.",constructivo,neutral,REVISAR
-Vimos una cucaracha pasar cerca de nuestra mesa. Salimos corriendo de allí.,crítico,anecdótico,REVISAR
-"Propuesta india contemporánea muy elegante. Los currys son aromáticos y suaves, aunque nos hubiera gustado algo más de variedad en los panes.",neutral,constructivo,REVISAR
-Un sitio auténtico donde el cliente siempre tiene la culpa de interrumpir la charla del camarero. La caña bien tirada salvó la visita.,sarcástico,coloquial,REVISAR
-El servicio de sala fue extremadamente arrogante. Intentaron darnos una lección de vinos cuando lo único que pedimos fue que trajeran la botella a la temperatura correcta.,crítico,formal,REVISAR
-"El zumo de naranja era 'natural', según ellos. Naturalmente de bote y con un 2% de fruta y un 98% de azúcar y arrepentimiento.",sarcástico,neutral,REVISAR
-Servicio atento a las necesidades básicas de la mesa.,neutral,formal,REVISAR
-Cumplen con lo esperado de un bar de su categoría. Servicio estándar y precios lógicos.,neutral,formal,REVISAR
-"La luz del local por la tarde es muy bonita, pero el aire acondicionado soplaba tan fuerte que me quedé helado.",anecdótico,sarcástico,REVISAR
+Le comenté al camarero que el queso me recordaba al de mi pueblo y acabó dándome el contacto del pastor que se lo servía.,anecdótico,sarcástico,senales_mixtas
+Café de sabor quemado y amargo debido a un mal mantenimiento de la maquinaria.,formal,breve,solapamiento_estilos
+"La decoración estilo 'trastero de mi abuelo mezclado con bingo' es fascinante. El café sabe a amargura existencial, pero el azúcar era de marca.",sarcástico,anecdótico,ironia
+El bar de siempre.,breve,entusiasta,insuficiente_texto
+Esperaba mucho más de un chef con ese renombre. Una ejecución muy irregular.,crítico,constructivo,ambiguedad
+Puntos de cocción perfectos en carnes y peces.,breve,formal,solapamiento_estilos
+La variedad del menú del día es algo escasa y repetitiva en días consecutivos.,formal,neutral,ambiguedad
+El sumiller nos recomendó un blanco excelente.,breve,anecdótico,solapamiento_estilos
+Sitio de confianza para parar siempre. Genial.,breve,coloquial,senales_mixtas
+"El trato del dueño es bueno, pero el resto del equipo parece que está allí por obligación.",coloquial,sarcástico,ironia
+Comida excelente pero el aire acondicionado estaba muy fuerte.,breve,constructivo,senales_mixtas
+"La ensaladilla rusa es harina de otro costal, ¡buenísima!",coloquial,entusiasta,senales_mixtas
+"Tapas clásicas que no fallan, pero la música era un pelín machacona.",coloquial,anecdótico,senales_mixtas
+"La música está guay, pero a un volumen que tienes que hablar por señas con el de al lado.",coloquial,anecdótico,lenguaje_colloquial
+Tardaron mucho para ser un bar de carretera.,breve,crítico,insuficiente_texto
+Se detectó la presencia de insectos en la zona de exposición de alimentos.,neutral,formal,ambiguedad
+Un sitio de diez para merendar.,breve,coloquial,insuficiente_texto
+Sitio acogedor a más no poder. La chimenea encendida le da un toque especial.,coloquial,entusiasta,solapamiento_estilos
+La cuenta llegó con un error de 20 euros a su favor. Es admirable lo bien que dominan la aritmética creativa.,sarcástico,crítico,ironia
+Un refugio de paz y buen gusto. Ideal para celebraciones que exigen un estándar de calidad superior.,neutral,formal,solapamiento_estilos
+Diligencia en el servicio incluso con el local al máximo de su capacidad.,formal,neutral,solapamiento_estilos
+"Buen sitio para camioneros. Platos contundentes, aunque echo de menos alguna opción más saludable o ligera en el menú.",crítico,constructivo,senales_mixtas
+"El trato es profesional pero distante. La comida llegó caliente y a tiempo, aunque faltaba sal en casi todos los platos.",crítico,neutral,senales_mixtas
+Café de bajísima calidad con un sabor amargo y metálico. Experiencia muy pobre.,formal,breve,solapamiento_estilos
+Mobiliario rústico funcional aunque algo incómodo para estancias de larga duración.,formal,neutral,solapamiento_estilos
+Pedí una tostada y el pan estaba duro como una piedra. Malísimo.,coloquial,crítico,lenguaje_colloquial
+Vimos una cucaracha pasar cerca de nuestra mesa. Salimos corriendo de allí.,crítico,anecdótico,insuficiente_texto
+"Espectacular manejo de los tiempos. No hubo esperas ni prisas, ritmo perfecto de cocina.",neutral,formal,solapamiento_estilos
+El servicio de sala fue extremadamente arrogante. Intentaron darnos una lección de vinos cuando lo único que pedimos fue que trajeran la botella a la temperatura correcta.,crítico,formal,ambiguedad
+"El zumo de naranja era 'natural', según ellos. Naturalmente de bote y con un 2% de fruta y un 98% de azúcar y arrepentimiento.",sarcástico,constructivo,ironia
+Experiencia satisfactoria dentro de lo esperado en un mesón.,neutral,coloquial,REVISAR
+La mesa bailaba tanto que parecía que estábamos comiendo en un barco en mitad de una tormenta.,sarcástico,anecdótico,REVISAR
 Muy sucio todo. No lo recomiendo para nada.,formal,breve,REVISAR
 ¡Ambientazo! La gente es súper maja y siempre acabas conociendo a alguien.,coloquial,entusiasta,REVISAR
+Un placer desayunar en este sitio.,breve,entusiasta,REVISAR
 Comida francesa de la buena pero moderna. El foie es obligatorio pedirlo. Lo único que las sillas no eran las más cómodas del mundo para estar dos horas.,coloquial,constructivo,REVISAR
-¡Espectacular!,breve,entusiasta,REVISAR
 Limpieza y orden impecables. Sugeriría ampliar ligeramente la selección de destilados premium.,constructivo,formal,REVISAR
 ¡Un festival para los sentidos! La estética del local y el sabor de la comida están en perfecta armonía.,entusiasta,neutral,REVISAR
 La vajilla artesanal diseñada exclusivamente para el restaurante suma puntos a la experiencia.,entusiasta,neutral,REVISAR
@@ -49,377 +43,371 @@ Nula disposición para adaptar el menú a restricciones dietéticas comunicadas 
 El servicio de pan con mantequilla ahumada es adictivo. Controlad el hambre para llegar al final.,constructivo,neutral,REVISAR
 "¡Muy buen rollo! Se nota que hay buen equipo trabajando. La comida está genial, aunque el postre tardó un poquito más de la cuenta en llegar.",entusiasta,coloquial,REVISAR
 "Un ambiente muy auténtico, aunque la ventilación es un poco justa para tanta gente.",coloquial,constructivo,REVISAR
-Tienen buena variedad de refrescos y combinados. La limpieza de los baños es correcta.,neutral,formal,REVISAR
+Excesivo ruido ambiental y trato distante.,neutral,breve,REVISAR
+No vuelvo. Mala educación por parte de la dueña.,breve,crítico,REVISAR
+¡Brutal!,breve,entusiasta,REVISAR
 "Las patatas bravas son naturales, lo cual se agradece, pero la salsa picaba en exceso incluso para los que estamos acostumbrados.",crítico,constructivo,REVISAR
 Platos con nombres interminables que luego resultan ser lo de siempre pero mal hecho.,crítico,coloquial,REVISAR
-"¡Todo fue excepcional! El bogavante estaba cocinado a la perfección, tierno y con un sabor intenso.",entusiasta,neutral,REVISAR
-Selección de aceites y panes sobresaliente.,breve,formal,REVISAR
-"El 'zumo natural' debió de ser natural en su comunidad autónoma de origen, hace meses, antes de ser procesado y embotellado en ese brik.",sarcástico,neutral,REVISAR
-"Cumple con lo esperado para una parada técnica, sin pretensiones adicionales.",formal,neutral,REVISAR
-Mucha espera entre el primer y el segundo plato.,neutral,breve,REVISAR
+"¡Todo fue excepcional! El bogavante estaba cocinado a la perfección, tierno y con un sabor intenso.",entusiasta,crítico,REVISAR
+La experiencia global resultó insatisfactoria debido a la falta de estándares básicos.,neutral,formal,REVISAR
+Diligencia en la preparación de los pedidos para llevar. El ambiente es tranquilo.,formal,neutral,REVISAR
+Servicio de sala estándar. El café es correcto aunque el tueste resultó algo fuerte.,formal,neutral,REVISAR
+Terraza mal organizada y servicio despistado.,neutral,breve,REVISAR
+"La iluminación de neón le da un punto muy moderno al local, aunque para comer algo de picar se veía bastante poco.",anecdótico,constructivo,REVISAR
 Poca higiene en la zona de barra y exposición de alimentos.,crítico,formal,REVISAR
 "Si quieres comer de verdad y dejarte de tonterías, este es tu sitio. ¡Espectacular!",coloquial,sarcástico,REVISAR
 El local huele a cerrado que tira para atrás. Necesita una buena ventilación.,coloquial,breve,REVISAR
 Sabores potentes pero mal equilibrados. Al terminar la cena solo tenía sed.,crítico,constructivo,REVISAR
 "Menuda decepción, la terraza estaba llena de colillas y basura. Cero mantenimiento.",coloquial,crítico,REVISAR
+Poco profesional el trato recibido.,breve,formal,REVISAR
 "Muy buena atención al recibirnos, pero nos sentimos algo abandonados tras los cafés.",constructivo,breve,REVISAR
 "Me gusta el rollo industrial del local, aunque es un poco frío en invierno.",coloquial,constructivo,REVISAR
-El suelo estaba pegajoso y las mesas mal limpiadas.,crítico,neutral,REVISAR
-Poco profesional el trato recibido.,breve,formal,REVISAR
+"Cumple con lo esperado para una parada técnica, sin pretensiones adicionales.",formal,neutral,REVISAR
 El sitio ideal para empezar la noche con los colegas.,coloquial,entusiasta,REVISAR
-Raciones de calidad y rapidez máxima.,breve,formal,REVISAR
+Mucho calor y moscas en el comedor. Mal.,breve,crítico,REVISAR
+Nos cobraron cosas que no habíamos pedido. Ladrones.,breve,crítico,REVISAR
 Indignante. El suelo no estaba lleno de servilletas usadas. ¿Qué clase de bar auténtico es este?,sarcástico,entusiasta,REVISAR
 "Buena parada técnica. El personal es eficiente, pero les falta un poco de amabilidad y calidez en el trato.",crítico,constructivo,REVISAR
 "No vuelvo ni aunque me inviten. El bizcocho estaba seco y duro, claramente era de hace varios días.",crítico,coloquial,REVISAR
 ¡Ojalá todos los sitios fueran así! Te hacen sentir como en casa.,entusiasta,coloquial,REVISAR
 La banda sonora de máquinas tragaperras a todo volumen y el olor a tabaco rancio te transportan directamente a un callejón de 1982.,sarcástico,crítico,REVISAR
-Sabores interesantes pero algunos platos no encajaban.,breve,constructivo,REVISAR
-Una estafa. No vuelvo ni aunque me inviten.,breve,coloquial,REVISAR
+Pésima gestión. Nos fuimos sin que nos atendieran.,breve,anecdótico,REVISAR
 Es el sitio perfecto para empezar la noche con buen pie. ¡Recomendadísimo!,coloquial,entusiasta,REVISAR
-Precio excesivo para el producto.,breve,neutral,REVISAR
 "Mucha cantidad, poca calidad. Es el sitio ideal si tu objetivo en la vida es el colesterol alto.",sarcástico,entusiasta,REVISAR
-Las croquetas tenían mucha masa y poco sabor.,neutral,breve,REVISAR
 "El local es chulo, pero está tan petado siempre que te pasas la noche esquivando codazos.",coloquial,sarcástico,REVISAR
-Postres industriales en su mayoría nada reseñables.,neutral,breve,REVISAR
+La carta de quesos artesanos es un deleite para cualquier aficionado. Variedad y maduración óptima.,neutral,constructivo,REVISAR
 ¡De locos! El bocadillo de jamón era enorme y el pan estaba crujiente. Da gusto parar en sitios con gente tan profesional y simpática.,entusiasta,sarcástico,REVISAR
-Tapas buenísimas y el dueño es un fenómeno.,breve,coloquial,REVISAR
-Gran técnica en las espumas y reducciones.,breve,formal,REVISAR
-"Buena materia prima tratada con respeto. El ceviche tenía un equilibrio de acidez correcto, aunque la presentación era algo minimalista.",neutral,constructivo,REVISAR
-Técnica depurada en cada plato; sala ruidosa.,breve,formal,REVISAR
-Faltaban varios productos de la carta.,neutral,formal,REVISAR
+"Todo perfecto, como siempre.",breve,entusiasta,REVISAR
+El café siempre está perfecto.,breve,entusiasta,REVISAR
+Raciones de calidad y rapidez máxima.,breve,formal,REVISAR
+Baños descuidados y falta de jabón.,neutral,formal,REVISAR
+El café estaba regular pero el trato fue bueno.,breve,constructivo,REVISAR
+El baño daba miedo. No vuelvo ni aunque me paguen.,breve,coloquial,REVISAR
+Mesas de madera muy juntas entre sí.,neutral,breve,REVISAR
 Es el típico sitio que vive de las rentas pero ha caído en picado. Una pena de local.,coloquial,crítico,REVISAR
 Las sillas son tan cómodas que a los diez minutos ya no sientes las piernas. ¡Magia!,sarcástico,entusiasta,REVISAR
 Interiorismo muy elegante. Un detalle de cortesía al final de la cena redondearía la experiencia.,constructivo,crítico,REVISAR
 "¡Sencillamente genial! Es el sitio de moda por algo, ¡aunque el volumen de los bajos retumbaba demasiado!",entusiasta,coloquial,REVISAR
 El revuelto tenía trozos de cáscara de huevo.,crítico,neutral,REVISAR
-Ha bajado mucho la calidad. Ya no es lo que era.,breve,crítico,REVISAR
 Para mí es la mejor cervecería de toda la ciudad.,coloquial,entusiasta,REVISAR
-El baño daba miedo. No vuelvo ni aunque me paguen.,breve,coloquial,REVISAR
-La experiencia global resultó insatisfactoria debido a la falta de estándares básicos.,neutral,formal,REVISAR
-¡Qué pasada!,breve,entusiasta,REVISAR
-La comida llegó templada a la mesa.,neutral,crítico,REVISAR
+Tapas de calidad.,breve,formal,REVISAR
+Gran técnica en las espumas y reducciones.,breve,formal,REVISAR
+Baños pequeños y con mantenimiento mejorable.,neutral,breve,REVISAR
 Tardaron 20 minutos en traernos la carta de vinos. Desorganización absoluta.,crítico,formal,REVISAR
 "Me gusta que el local sea 'eco-friendly', aunque las pajitas de papel se deshacen muy rápido en los combinados.",constructivo,anecdótico,REVISAR
 "¡Un ambiente muy acogedor y alegre! La tortilla de chorizo está para repetir. Casi las 5 estrellas, si no fuera porque el zumo no era del todo natural.",entusiasta,sarcástico,REVISAR
-Tiempos de espera normales para la preparación de carnes.,neutral,formal,REVISAR
+"Un restaurante elegante para ocasiones especiales. El cochinillo estaba crujiente y sabroso, pero el entorno era un poco oscuro.",neutral,constructivo,REVISAR
 La sopa de ajo te resucita hasta en el peor de los días. ¡Riquísima!,coloquial,crítico,REVISAR
-Muy chulo el sitio aunque las copas son caras.,breve,coloquial,REVISAR
-Excelente trato pero el tiempo entre platos fue excesivo.,breve,constructivo,REVISAR
-Sillas de madera algo incómodas para estancias largas.,neutral,breve,REVISAR
-El camarero nos tiró los cubiertos sobre la mesa con una elegancia digna de un lanzador de cuchillos de circo.,sarcástico,anecdótico,REVISAR
-Café de bajísima calidad con un sabor amargo y metálico. Experiencia muy pobre.,formal,breve,REVISAR
-Diez de diez en todo.,breve,entusiasta,REVISAR
+Mobiliario algo antiguo y poco cómodo.,neutral,breve,REVISAR
+Me encanta la decoración y los cócteles son de 10.,breve,entusiasta,REVISAR
+Personal barista con alta formación. La emulsión de la leche es sencillamente perfecta.,formal,neutral,REVISAR
+Trato muy distante. Parecía que tenían prisa por echarnos.,breve,crítico,REVISAR
 El establecimiento no respeta los precios marcados en su propia carta. Fraude.,formal,neutral,REVISAR
 "Mola mucho el ambiente, pero la música estaba un poco alta para charlar.",coloquial,constructivo,REVISAR
-Un placer desayunar en este sitio.,breve,entusiasta,REVISAR
-No vengas.,breve,crítico,REVISAR
-Mobiliario roto y suelo bastante descuidado.,neutral,breve,REVISAR
-Lo mejor: la rapidez y el sabor.,breve,entusiasta,REVISAR
+Es un sitio de paso cómodo. Siempre hay alguna mesa libre fuera de las horas punta.,neutral,constructivo,REVISAR
+Para el paso.,breve,neutral,REVISAR
 Atmósfera sosegada ideal para disfrutar de la cocina de cuchara más auténtica.,formal,constructivo,REVISAR
+Personal atento a las peticiones. Pedimos cambiar una bebida y lo hicieron sin problema.,neutral,formal,REVISAR
 El ambiente es algo sombrío. Falta iluminación y un poco de alegría tanto en la decoración como en el servicio.,crítico,formal,REVISAR
-"Ambiente distinguido y carta bien estructurada. El confit de pato cumplió las expectativas, pero la guarnición era algo escasa.",neutral,constructivo,REVISAR
-Grosería constante por el personal.,breve,neutral,REVISAR
-Nos cobraron cosas que no habíamos pedido. Ladrones.,breve,crítico,REVISAR
 "Es entrar y ya me están poniendo mi caña, ¡me conocen de sobra!",coloquial,anecdótico,REVISAR
 Fui por la fama y me fui con la sensación de haber sido víctima del marketing.,crítico,anecdótico,REVISAR
 ¡Simplemente magistral! El consomé clarificado tenía una profundidad de sabor que no se olvida.,entusiasta,crítico,REVISAR
 Nos ignoraron durante 40 minutos mientras atendían a una mesa de influencers. Patético.,crítico,anecdótico,REVISAR
 "Mucho nombre y estrellas, pero la comida de un bar de carretera tiene más sabor y cariño.",crítico,constructivo,REVISAR
-Carta de vinos limitada pero con opciones locales interesantes.,neutral,constructivo,REVISAR
+Gran variedad de tés y cafés.,breve,formal,REVISAR
+Paramos por casualidad y fue un acierto total.,breve,entusiasta,REVISAR
+"El local ofrece una atmósfera de lujo relajado. La carta de cócteles es excelente, aunque la música de fondo estaba un punto por encima de lo ideal.",neutral,constructivo,REVISAR
+Diligencia en el servicio incluso con alta ocupación. La limpieza es constante.,formal,neutral,REVISAR
 "Bodega impresionante. Dejaros guiar por el sumiller, sus recomendaciones fuera de carta valen la pena.",constructivo,crítico,REVISAR
 "Las sillas de la barra son muy incómodas. Si pretendes quedarte un rato, te acaba doliendo la espalda.",crítico,sarcástico,REVISAR
 Mucho humo y poca ventilación. Salí de allí que parecía que me había fumado tres paquetes de tabaco.,coloquial,sarcástico,REVISAR
+Excelente para el aperitivo.,breve,formal,REVISAR
+No vengas.,breve,crítico,REVISAR
 Excelente opción para familias. Disponen de tronas y espacio suficiente entre mesas.,formal,neutral,REVISAR
 "La bebida es pasable, pero el picoteo que nos dieron estaba un poco rancio.",coloquial,anecdótico,REVISAR
 "La zona VIP es de risa; una cuerda roja y dos sillas de plástico. No piquéis, que no vale la pena.",coloquial,crítico,REVISAR
 Correcto tiraje de la caña clásica. El personal es amable y el local acogedor.,formal,neutral,REVISAR
-"Fue el refugio perfecto durante una tormenta de verano; café de puchero, lluvia en los cristales y buena charla.",anecdótico,neutral,REVISAR
-El bar de siempre.,breve,entusiasta,REVISAR
-Mesas algo pegajosas. La comida se deja comer.,breve,crítico,REVISAR
-El café estaba quemado y sabía a rayos.,crítico,neutral,REVISAR
-La variedad de cervezas es aceptable. Los precios están en la media de la zona.,neutral,formal,REVISAR
+El postre de la casa es una opción recomendable por su elaboración.,neutral,sarcástico,REVISAR
 Es un sitio para ir una vez y ya está. No hay nada que te invite a convertirte en un cliente habitual.,crítico,coloquial,REVISAR
-Un bar concurrido por gente del barrio. Da confianza ver que mantienen a su clientela.,neutral,sarcástico,REVISAR
 Tardaron la vida en atendernos y eso que no había tanta gente en la barra.,coloquial,crítico,REVISAR
 "El barman es un artista, pero le falta un poco de paciencia cuando le pides algo raro.",coloquial,constructivo,REVISAR
 Pedimos la carne al punto y llegó tan hecha que los bomberos casi vienen a apagar el plato.,sarcástico,crítico,REVISAR
 Platos de gran belleza estética y sabor profundo. El café de especialidad es magnífico.,formal,neutral,REVISAR
 "Las copas para el maridaje eran mediocres. Para el precio que cobran, deberían usar cristalería de mayor calidad que potencie el vino.",crítico,constructivo,REVISAR
+¡Súper recomendado!,breve,entusiasta,REVISAR
 Mejor que en casa de uno. Te vas con la panza llena y el corazón contento.,coloquial,sarcástico,REVISAR
-Muy rico todo aunque las raciones son un poco pequeñas.,breve,coloquial,REVISAR
-"Las croquetas estaban ricas, pero tardaron media hora en servirlas a pesar de que el bar estaba medio vacío.",crítico,coloquial,REVISAR
+Tapas buenísimas y el dueño es un fenómeno.,breve,coloquial,REVISAR
+¡Qué pasada!,breve,entusiasta,REVISAR
+Leche cortada en el café.,breve,neutral,REVISAR
 Pedimos tinto de verano y nos trajeron una mezcla que servía perfectamente para quitar el óxido de las tuberías.,sarcástico,crítico,REVISAR
-¡Brutal!,breve,entusiasta,REVISAR
-El mejor menú degustación que he probado en mucho tiempo.,breve,entusiasta,REVISAR
+"Poca higiene en la barra, decepcionante.",breve,formal,REVISAR
+Cuidado con los precios. Te clavan por todo.,breve,coloquial,REVISAR
+Señalamiento de precios claro y sin cargos sorpresa.,neutral,formal,REVISAR
+Platos de diseño con sabor tradicional logrado.,breve,neutral,REVISAR
 Venden exclusividad pero el comedor es ruidoso y las mesas están demasiado juntas.,crítico,constructivo,REVISAR
 Postres visualmente bonitos pero empalagosos y sin matices. Una decepción final.,crítico,constructivo,REVISAR
 "Buen descubrimiento, aunque la carta de comida es un pelín cortita.",coloquial,entusiasta,REVISAR
 "Vaya descubrimiento el de hoy. Los dim sum de bogavante son una locura. El precio es elevado, pero para un capricho de vez en cuando está genial.",coloquial,entusiasta,REVISAR
-Maridaje arriesgado pero muy bien resuelto.,breve,constructivo,REVISAR
 El 'hilo musical' era reggaetón a las 8 de la mañana. Justo lo que mis oídos necesitaban para empezar el día con drama.,sarcástico,anecdótico,REVISAR
-Comida excelente pero el aire acondicionado estaba muy fuerte.,breve,constructivo,REVISAR
-"El sitio es muy acogedor, pero el olor a tubería que venía del fondo arruinó un poco mi merienda.",anecdótico,constructivo,REVISAR
+No me convenció la limpieza de los cubiertos.,breve,sarcástico,REVISAR
+La terraza en primavera es un lujo total bajo los árboles. La cerveza de la casa es suave y entra sola. El servicio fue un poco despistado con las servilletas.,anecdótico,coloquial,REVISAR
 "Los calamares estaban algo chiclosos. Si fueran frescos en lugar de congelados, vuestro bar subiría de nivel seguro.",constructivo,entusiasta,REVISAR
 "Los huevos rotos están bien, pero el jamón que le ponen es un poco básico. Por lo demás, una parada aceptable.",crítico,coloquial,REVISAR
 "Vaya pasada de torreznos, crujientes y con mucho sabor.",coloquial,entusiasta,REVISAR
 Las sillas estaban rotas y el local medio en ruinas. Una dejadez absoluta por parte del dueño.,coloquial,crítico,REVISAR
 "Un sitio muy auténtico para el tardeo, pero la iluminación en el baño es tan tenue que apenas se ve nada.",constructivo,sarcástico,REVISAR
 "Si quieres tirar el dinero y que te traten mal, este es tu sitio ideal.",crítico,sarcástico,REVISAR
-Parada obligatoria cada vez que paso por aquí.,breve,entusiasta,REVISAR
+Ha bajado mucho la calidad. Ya no es lo que era.,breve,crítico,REVISAR
 La cubertería tenía restos de comida pegada. Tuve que limpiar mi propio tenedor con una servilleta. Lamentable.,crítico,sarcástico,REVISAR
-Puntos de cocción perfectos en carnes y peces.,breve,formal,REVISAR
+Limpio y correcto. No se puede pedir más.,breve,entusiasta,REVISAR
 "Sitio estratégico para parar. La comida es correcta, pero el trato de la señora de la caja fue algo seco y cortante.",crítico,formal,REVISAR
 "¡Vaya pasada de raciones! Casi no podemos terminar los segundos, ¡qué barbaridad!",coloquial,entusiasta,REVISAR
-Propuesta culinaria arriesgada pero ejecutada con una precisión técnica envidiable.,neutral,formal,REVISAR
+Una decepción. Entré buscando un bar ruidoso y solo había gente charlando tranquilamente. Mi dolor de cabeza se siente ignorado.,sarcástico,anecdótico,REVISAR
 ¡Es el paraíso de los gourmets! La calidad de la materia prima es sencillamente insuperable.,entusiasta,formal,REVISAR
 "Cerveza fresca y tapas decentes, pero el café de después es flojillo.",coloquial,constructivo,REVISAR
-Atención impecable en un entorno exclusivo.,breve,formal,REVISAR
+El guiso de ternera estaba increíble.,breve,crítico,REVISAR
 "Los sofás del fondo son la gloria, pero tienes que reservar o tener mucha suerte para pillarlos.",coloquial,constructivo,REVISAR
-El ruido procedente de la cocina dificultaba la estancia en el salón principal.,neutral,formal,REVISAR
+La comida es casera y las raciones son abundantes.,neutral,crítico,REVISAR
 Nos pusieron en una mesa al lado de la puerta y nos quedamos pajaritos con la corriente.,coloquial,anecdótico,REVISAR
+Vinos de la tierra ricos.,breve,formal,REVISAR
 El menú degustación es una joya; no os saltéis el pase de los quesos artesanos.,constructivo,entusiasta,REVISAR
 "Todo lo que probamos estaba riquísimo. Se nota que hay técnica detrás. Me gustó mucho el ambiente, aunque hacía un poco de calor en nuestra mesa.",coloquial,anecdótico,REVISAR
+Acompañé mi café con un bizcocho de limón que acababa de salir del horno. La mejor merienda en meses.,anecdótico,sarcástico,REVISAR
 Local bien ambientado para los aficionados al sector. Se agradecería más variedad nacional.,formal,constructivo,REVISAR
 Trato seco y poco hospitalario por parte de los camareros.,crítico,formal,REVISAR
+Terraza amplia con sombrillas. Es una opción válida para pasar la tarde tranquilamente.,neutral,constructivo,REVISAR
+"Mediocre, no destaca en nada.",breve,crítico,REVISAR
+Tardaron quince minutos en tomarnos nota.,neutral,crítico,REVISAR
 "La tortilla de patata estaba un poco insípida. Cumple para quitar el hambre, pero no es para tirar cohetes.",crítico,coloquial,REVISAR
+Mesas algo pegajosas. La comida se deja comer.,breve,crítico,REVISAR
 Precios de carta que no coinciden con lo cobrado finalmente en el ticket. Error grave.,formal,crítico,REVISAR
 Trato cercano y comida abundante. ¡Qué más se puede pedir!,coloquial,entusiasta,REVISAR
-"El sitio tiene potencial y es bonito, pero le falta ese 'algo' en la atención para que quiera volver pronto.",anecdótico,constructivo,REVISAR
 Los cubiertos tenían un diseño ergonómico tan avanzado que todavía tenían restos de la comida anterior.,sarcástico,crítico,REVISAR
 Camareros majos pero el local se queda pequeño para tanta gente.,coloquial,constructivo,REVISAR
 "¡Increíble trato! Te hacen sentir como en casa, ¡si la carta de rones fuera más amplia les daba un 10!",entusiasta,coloquial,REVISAR
-Súper acogedor.,breve,entusiasta,REVISAR
+El personal es encantador.,breve,neutral,REVISAR
+Intentamos jugar al billar pero el tapete estaba tan roto que la bola se desviaba sola. Cobrar por eso me parece un timo.,anecdótico,sarcástico,REVISAR
 Increíble despliegue de tecnología: el microondas debe ser de la época del Sputnik por cómo deja los bordes del bocadillo: radioactivos pero fríos por dentro.,sarcástico,crítico,REVISAR
 El aire acondicionado estaba tan fuerte que era molesto comer. Deberían regular la temperatura para que el cliente esté cómodo.,constructivo,sarcástico,REVISAR
-Vine a escribir un diario y terminé conversando con otra clienta súper agradable. Este sitio atrae buena gente.,anecdótico,entusiasta,REVISAR
-Sitio de confianza para parar siempre. Genial.,breve,coloquial,REVISAR
+Me gusta venir los domingos a mediodía por el aperitivo. Las aceitunas aliñadas son un vicio con la vermú de grifo. La única pega es que la terraza siempre está a tope.,anecdótico,entusiasta,REVISAR
 Qué descaro. La ensaladilla tiene patata de verdad y no es un bloque de hormigón industrial. ¿A dónde va a parar este mundo?,sarcástico,entusiasta,REVISAR
-Platos de diseño con sabor tradicional logrado.,breve,neutral,REVISAR
+Innovación técnica bien integrada. No obstante el suplemento por el pan resulta innecesario.,formal,crítico,REVISAR
+"Está bien para una vez, pero no me entusiasmó.",breve,coloquial,REVISAR
 La cuchara tenía restos de comida de otro cliente. Me encanta compartir experiencias con desconocidos.,sarcástico,entusiasta,REVISAR
 La carta es breve pero está ejecutada con rigor técnico. El ambiente es sobrio y agradable.,formal,constructivo,REVISAR
-"Hicimos un 'afterwork' improvisado y acabamos probando media carta de grifos. La calidad es indiscutible y el trato muy cercano. Lástima que el aire acondicionado estuviera tan fuerte, terminamos tiritando.",anecdótico,sarcástico,REVISAR
+Súper animado.,breve,entusiasta,REVISAR
 "Muy buen ambiente y la comida de diez. La tarta de queso está de vicio, súper cremosa. Le falta un puntito de rapidez al servicio de mesa.",coloquial,entusiasta,REVISAR
 La lasaña de aquí es de campeonato. El trato es muy profesional y el sitio destila clase. Me faltó un pelín más de cantidad en los entrantes.,coloquial,entusiasta,REVISAR
 La espuma de mar que pusieron de entrante me hizo cuestionar mi existencia y mis habilidades culinarias.,sarcástico,anecdótico,REVISAR
 "El sitio está bien, pero le falta un poco de personalidad o algo que lo distinga. ¡Ánimo con las mejoras, tiene potencial!",constructivo,coloquial,REVISAR
-El servicio de café y la selección de destilados al final de la cena son de primer nivel.,neutral,formal,REVISAR
-El pan que acompañaba las tapas estaba correoso.,neutral,crítico,REVISAR
-Hacía mucho viento en la terraza y nos ofrecieron unas mantitas súper suaves para seguir fuera. ¡Qué detalle!,anecdótico,entusiasta,REVISAR
+Bien pero me pareció un poco pretencioso.,breve,anecdótico,REVISAR
+¡Cinco estrellas!,breve,entusiasta,REVISAR
+Atención impecable en un entorno exclusivo.,breve,formal,REVISAR
+El personal desconocía la composición de los productos ante preguntas sobre alérgenos.,neutral,formal,REVISAR
 ¡Vaya pinchos más originales! Se salen de lo típico y están todos para chuparse los dedos.,entusiasta,coloquial,REVISAR
-La iluminación y la acústica del local están diseñadas para garantizar una privacidad absoluta.,neutral,formal,REVISAR
+Muy rico todo aunque las raciones son un poco pequeñas.,breve,coloquial,REVISAR
+"Experiencia gastronómica correcta en un entorno privilegiado. El servicio es atento, pero el coste de las bebidas está por encima de la media.",neutral,formal,REVISAR
 El dueño me miró como si le debiera dinero de una vida anterior. Luego me puso unos huevos rotos que me hicieron olvidar mi propio nombre.,sarcástico,anecdótico,REVISAR
 "Un quiero y no puedo. Caro, lento y con la cerveza del tiempo.",coloquial,breve,REVISAR
+La tarta del postre parecía industrial.,neutral,crítico,REVISAR
 El filete de pescado estaba medio congelado por dentro. Casi me rompo un diente. No saben cocinar ni lo más básico.,crítico,coloquial,REVISAR
-Sencillamente perfecto. Un regalo para el paladar.,breve,entusiasta,REVISAR
 "Las copas estaban calientes, recién salidas del lavavajillas. Así no hay quien se tome una caña.",coloquial,crítico,REVISAR
 Encontramos un hilo de cocina en el postre y la respuesta del maître fue de total indiferencia.,crítico,formal,REVISAR
 ¡Hacéis el mejor capuchino del planeta! ¡No acepto discusiones!,entusiasta,breve,REVISAR
 Camareros maleducados que te responden de malas maneras si les pides algo que no está en el menú del día.,crítico,sarcástico,REVISAR
+Una estafa. No vuelvo ni aunque me inviten.,breve,coloquial,REVISAR
+Precios acordes al mercado y a la cantidad servida en cada plato.,neutral,formal,REVISAR
+Las copas de vino tenían marcas de cal.,neutral,crítico,REVISAR
 La limpieza de la barra es mejorable; estaba llena de cercos de vasos de clientes anteriores y tardaron en pasar el trapo.,constructivo,crítico,REVISAR
-Las legumbres están bien cocidas y no presentan pieles sueltas.,neutral,coloquial,REVISAR
-El ticket de compra no estaba muy detallado; desglosar bien lo consumido evitaría dudas al cliente.,constructivo,neutral,REVISAR
+Tardaron bastante en tomarnos la comanda.,neutral,crítico,REVISAR
+El ticket de compra no estaba muy detallado; desglosar bien lo consumido evitaría dudas al cliente.,constructivo,crítico,REVISAR
 "Variedad de grifos brutal, hay para todos los gustos.",coloquial,entusiasta,REVISAR
 "¡Personal encantador y muy profesional! La comida sale caliente y sabrosa. Una experiencia genial, aunque el parking de camiones levanta algo de polvo.",entusiasta,crítico,REVISAR
 "Me encanta la zona de sofás, ideal para charlar un rato antes de que suban la música.",coloquial,anecdótico,REVISAR
-Las carnes a la brasa tienen un punto de asado adecuado.,neutral,constructivo,REVISAR
+El personal de barra mantuvo una actitud de indiferencia ante las reclamaciones técnicas.,neutral,formal,REVISAR
 Los precios son un robo para la bajísima calidad que ofrecen. Hay sitios mejores en cada esquina.,crítico,entusiasta,REVISAR
-Paramos por casualidad y fue un acierto total.,breve,entusiasta,REVISAR
+El confit de pato estaba excesivamente salado y la salsa de naranja tenía un sabor metálico. El control de calidad en cocina brilla por su ausencia.,crítico,neutral,REVISAR
 No paréis aquí ni aunque os estéis quedando sin gasolina. Los baños son un auténtico foco de infección y el olor es insoportable.,crítico,coloquial,REVISAR
-Trato humillante al cliente.,breve,formal,REVISAR
-El pan estaba algo correoso no parecía del día.,neutral,crítico,REVISAR
-Buena gestión de las reservas y cumplimiento de los horarios.,neutral,formal,REVISAR
+El camarero estaba un poco agobiado. Comida ok.,breve,coloquial,REVISAR
+Comedor ruidoso debido a la gran afluencia de gente.,neutral,formal,REVISAR
+Propuesta gastronómica coherente con la categoría del local. El personal es atento y el entorno resulta muy acogedor para una velada pausada.,neutral,formal,REVISAR
 "Los callos están picantitos y melosos, ¡justo como a mí me gustan!",coloquial,sarcástico,REVISAR
-Normalito. Los precios de la tienda son caros.,breve,neutral,REVISAR
+No entiendo las estrellas. Comida insípida y muy cara.,breve,crítico,REVISAR
+Vine a escribir un diario y terminé conversando con otra clienta súper agradable. Este sitio atrae buena gente.,anecdótico,entusiasta,REVISAR
 Intentaron cobrarme de más en la cuenta 'por error'. Menos mal que revisé el ticket porque me querían estafar 10 euros.,crítico,sarcástico,REVISAR
-Armonía perfecta entre el diseño del local y la elegancia de los platos servidos.,formal,neutral,REVISAR
 "Los camareros son majísimos y súper atentos, no te falta de nada en ningún momento.",coloquial,entusiasta,REVISAR
-Tardaron mucho en traer la cuenta tras pedirla.,neutral,constructivo,REVISAR
-Innovación técnica bien integrada. No obstante el suplemento por el pan resulta innecesario.,formal,crítico,REVISAR
-El ambiente es tan sano que me siento segura viniendo a tomarme algo sola después del trabajo.,anecdótico,sarcástico,REVISAR
+Armonía perfecta entre el diseño del local y la elegancia de los platos servidos.,formal,neutral,REVISAR
 Para picar algo rico y variado es el lugar ideal.,coloquial,entusiasta,REVISAR
 Atención rápida y eficaz. El precio de las raciones es acorde a la calidad ofrecida.,formal,neutral,REVISAR
-Pedimos unos nachos para picar y llegaron fríos y sin queso. Tardaron tanto en traerlos que ya no teníamos ni hambre.,anecdótico,coloquial,REVISAR
-"Entramos atraídos por el cartel de 'Happy Hour'. Resulta que solo era para una marca concreta que estaba imbebible. Al final pedimos la cara, que sí estaba buena. Marketing puro.",anecdótico,crítico,REVISAR
-El sumiller nos recomendó un blanco excelente.,breve,anecdótico,REVISAR
+El aire acondicionado estaba demasiado fuerte.,neutral,constructivo,REVISAR
 Ese steak tartar debería ser ilegal. He desarrollado una adicción y no veo programa de desintoxicación cerca.,sarcástico,crítico,REVISAR
 Vaya timo. Pedí un montadito y el pan estaba crujiente de verdad. Se nota que no saben lo que es el pan chicle de toda la vida.,sarcástico,coloquial,REVISAR
-Probé la tarta de queso por recomendación de un vecino y ahora soy yo quien la recomienda a todo el mundo.,anecdótico,sarcástico,REVISAR
+Vi con mis propios ojos cómo el camarero rellenaba botellas de marca con alcohol barato debajo de la barra. Un engaño total a los clientes.,anecdótico,crítico,REVISAR
 "El servicio es caótico, nos trajeron las bebidas de otra mesa dos veces. Un sistema de comandas digital evitaría estos errores.",constructivo,crítico,REVISAR
 "Me gustaron los cuadros y el aire del local, pero el suelo estaba tan pegajoso que casi pierdo una zapatilla.",coloquial,sarcástico,REVISAR
 "Tienen buena variedad de cervezas, pero a varias de la carta les faltaba stock. No deberían anunciar lo que no tienen.",crítico,constructivo,REVISAR
 Gestión de reservas lamentable. Nos hicieron esperar a pesar de tener confirmación por escrito.,formal,crítico,REVISAR
+¡Qué maravilla!,breve,entusiasta,REVISAR
+El servicio en barra es eficiente. Las mesas de fuera son un poco pequeñas pero cómodas.,neutral,constructivo,REVISAR
 "Buen cañeo y buen ambiente, una estrella menos por el jaleo que había.",coloquial,sarcástico,REVISAR
 Una experiencia frustrante. Esperas excelencia y recibes mediocridad con ínfulas.,crítico,breve,REVISAR
+Siempre que vengo me tratan de lujo. Muy cracks.,breve,coloquial,REVISAR
+Probé la tarta de queso por recomendación de un vecino y ahora soy yo quien la recomienda a todo el mundo.,anecdótico,sarcástico,REVISAR
+Errores constantes en la comanda y en la cuenta.,neutral,formal,REVISAR
 Servicio de guante blanco pero con fallos básicos como servir el vino equivocado.,crítico,formal,REVISAR
 "La carta de rones es de lo mejor, pero molaría que pusieran algo más de picoteo gratis.",coloquial,constructivo,REVISAR
-"Pedí una ensalada sencilla y me trajeron tomates que sabían a tomate de verdad, recién cogidos del huerto de detrás.",anecdótico,sarcástico,REVISAR
-Trato distante pero eficiente por parte del personal de sala.,neutral,formal,REVISAR
-La carta de quesos artesanos es un deleite para cualquier aficionado. Variedad y maduración óptima.,neutral,constructivo,REVISAR
-Salí de allí con la sensación de que el mundo todavía es un lugar amable. Gracias por la comida y por el trato.,anecdótico,sarcástico,REVISAR
-Muy buena calidad pero las mesas están muy juntas.,breve,constructivo,REVISAR
+"Un sitio adecuado para cenas de gala. El maridaje de blancos fue acertado, aunque la temperatura del salón era un poco fría.",neutral,constructivo,REVISAR
+Muy chulo el sitio aunque las copas son caras.,breve,coloquial,REVISAR
+Teníamos mesa reservada y cuando llegamos nos dijeron que si no pedíamos tres botellas de golpe no nos sentaban. Un chantaje en toda regla.,anecdótico,crítico,REVISAR
 "Copas bien servidas con mucho hielo, aunque tardan una eternidad en limpiar las mesas vacías.",coloquial,constructivo,REVISAR
-La tarta de queso estaba dura y sin apenas sabor.,crítico,neutral,REVISAR
+¡Vaya temazos!,breve,entusiasta,REVISAR
 ¡Elegancia pura! Un servicio de mesa coreografiado que fluye sin interrupciones. ¡Impresionante!,entusiasta,formal,REVISAR
-Acompañé mi café con un bizcocho de limón que acababa de salir del horno. La mejor merienda en meses.,anecdótico,sarcástico,REVISAR
+Presentación de los platos muy sencilla y básica.,neutral,formal,REVISAR
+Tarta de queso de textura muy densa.,neutral,breve,REVISAR
 Me trajeron la cuenta con tres cosas que no habíamos pedido. Se creen que somos tontos.,coloquial,sarcástico,REVISAR
-Servicio correcto pero el local es un poco frío.,breve,constructivo,REVISAR
-"Quedé con un cliente para algo informal. Las birras internacionales son de diez y el servicio es rápido. Eso sí, aparcar por la zona fue una pesadilla de veinte minutos.",anecdótico,entusiasta,REVISAR
+"La pericia del barista es notable, logrando una emulsión de la leche perfecta. Sublime.",formal,neutral,REVISAR
+"Me encanta el diseño de las tazas, son muy instagrameables, aunque son algo difíciles de sujetar.",anecdótico,constructivo,REVISAR
 "Me encanta que tengan juegos de mesa, aunque deberían renovar algunos porque están un poco deteriorados por el uso.",constructivo,anecdótico,REVISAR
 "El café está bueno, pero el servicio de desayunos es un caos. Tardaron 15 minutos en traerme una tostada quemada.",crítico,neutral,REVISAR
 "¡Me flipan los cuadros de las paredes! Mucho arte, ¡si tuvieran una carta de snacks más variada sería la bomba!",entusiasta,constructivo,REVISAR
+"El sitio tiene potencial y es bonito, pero le falta ese 'algo' en la atención para que quiera volver pronto.",anecdótico,constructivo,REVISAR
 El aroma del local es una mezcla sutil entre café quemado y ambientador de pino barato. Muy sugerente.,sarcástico,neutral,REVISAR
-"Cocina de mercado con toques de autor. El pulpo a la brasa estaba bien cocinado, pero el acompañamiento de puré resultó algo insípido.",neutral,constructivo,REVISAR
-Una decepción. Entré buscando un bar ruidoso y solo había gente charlando tranquilamente. Mi dolor de cabeza se siente ignorado.,sarcástico,anecdótico,REVISAR
-"Cocina fusión japonesa con técnica depurada. El sashimi era de gran calidad, pero el precio final se siente un poco elevado para la experiencia global.",neutral,constructivo,REVISAR
+Atención amable sin esperas innecesarias en la barra o mesa.,neutral,formal,REVISAR
+"El sitio es muy acogedor, pero el olor a tubería que venía del fondo arruinó un poco mi merienda.",anecdótico,constructivo,REVISAR
 Se les olvidó la mitad de lo que pedimos y encima nos lo querían cobrar.,coloquial,anecdótico,REVISAR
 Me encantó la decoración de 'suciedad vintage' en las mesas. Muy auténtico el detalle de las migas del mes pasado.,sarcástico,anecdótico,REVISAR
-Teníamos mesa reservada y cuando llegamos nos dijeron que si no pedíamos tres botellas de golpe no nos sentaban. Un chantaje en toda regla.,anecdótico,crítico,REVISAR
 "Siempre que paso por aquí me tengo que tomar un vino, es obligatorio.",coloquial,sarcástico,REVISAR
 ¡Brutal! Las copas están preparadas con un mimo que no se ve en ningún otro lado.,entusiasta,coloquial,REVISAR
 "El barman sabe lo que hace, me preparó un mojito de locos, pero la menta estaba algo pocha.",coloquial,anecdótico,REVISAR
-Cuidado con los precios. Te clavan por todo.,breve,coloquial,REVISAR
 "El camarero es un pieza, nos intentó cobrar de más en la cuenta y encima se puso gallito.",coloquial,anecdótico,REVISAR
-"El camarero domina el arte de mirar a través de la gente. Soy invisible, pero mi bocata de lomo apareció mágicamente en la barra. Estaba bueno.",sarcástico,anecdótico,REVISAR
-Mucha espera para pagar en caja; habilitar el pago en mesa agilizaría mucho el flujo de gente.,constructivo,neutral,REVISAR
 "Los precios son para jeques árabes, pero el servicio es para gente con una paciencia infinita. El baño estaba limpio.",sarcástico,constructivo,REVISAR
-No merece la pena el precio.,breve,crítico,REVISAR
-"Cocina tailandesa de gran nivel técnico. El pad thai estaba bien ejecutado, aunque echamos en falta el toque de lima que pedimos aparte.",neutral,formal,REVISAR
-La sopa de picadillo que probamos aquí ha sido el mejor remedio para el resfriado que he tenido nunca.,anecdótico,entusiasta,REVISAR
-Le comenté al camarero que el queso me recordaba al de mi pueblo y acabó dándome el contacto del pastor que se lo servía.,anecdótico,sarcástico,REVISAR
-¡Vaya temazos!,breve,entusiasta,REVISAR
-"Todo perfecto, como siempre.",breve,entusiasta,REVISAR
+El local es precioso. El bizcocho estaba un poco seco.,breve,constructivo,REVISAR
+El suelo estaba tan pegajoso que se me rompió la suela de la,anecdótico,sarcástico,REVISAR
+Postres industriales en su mayoría nada reseñables.,neutral,crítico,REVISAR
+"Fue el refugio perfecto durante una tormenta de verano; café de puchero, lluvia en los cristales y buena charla.",anecdótico,neutral,REVISAR
 "Manejo del nitrógeno líquido con sentido y sabor. No es solo espectáculo, es cocina real.",constructivo,crítico,REVISAR
-La propuesta gastronómica es algo conservadora para un restaurante de este rango.,formal,crítico,REVISAR
-Personal barista con alta formación. La emulsión de la leche es sencillamente perfecta.,formal,neutral,REVISAR
+Normalito. Los precios de la tienda son caros.,breve,neutral,REVISAR
 "Precios competitivos, pero la decoración se ha quedado anclada en los años ochenta. Necesita un lavado de cara urgente.",crítico,constructivo,REVISAR
 Cocina convencional sin grandes alardes técnicos. El servicio cumplió con los estándares mínimos.,formal,neutral,REVISAR
-Mesas demasiado juntas entre sí.,neutral,breve,REVISAR
-Un refugio de paz y buen gusto. Ideal para celebraciones que exigen un estándar de calidad superior.,neutral,formal,REVISAR
+La oferta de infusiones es muy limitada y las marcas utilizadas son de gama baja.,neutral,formal,REVISAR
 Servicio estándar sin grandes rasgos distintivos. El café es de calidad media.,formal,neutral,REVISAR
 "Me flipa la decoración, pero las mesas de la entrada son un poco pequeñas si vas en grupo.",coloquial,constructivo,REVISAR
-"El local ofrece una atmósfera de lujo relajado. La carta de cócteles es excelente, aunque la música de fondo estaba un punto por encima de lo ideal.",neutral,constructivo,REVISAR
+Un sitio auténtico donde el cliente siempre tiene la culpa de interrumpir la charla del camarero. La caña bien tirada salvó la visita.,sarcástico,coloquial,REVISAR
 "Es un bar ruidoso y caótico. Si buscas un momento de relax, este definitivamente no es el sitio adecuado.",crítico,entusiasta,REVISAR
-¡Súper recomendado!,breve,entusiasta,REVISAR
+Bebidas normales. El local es algo pequeño.,breve,neutral,REVISAR
 Tienen un problema serio con la limpieza. El suelo brilla de la grasa que tiene acumulada.,coloquial,sarcástico,REVISAR
-En general es un sitio recomendable para un uso diario. Sin grandes lujos pero eficaz.,neutral,coloquial,REVISAR
-"El camarero tiró la caña con tanta maestría que le hice un vídeo para enseñárselo a mis amigos. La crema de la espuma era perfecta, como debe ser.",anecdótico,sarcástico,REVISAR
-"Fuimos al salir del cine y nos sorprendió lo bien que tiran la caña aquí. Muy poca espuma y muy fría. El precio es razonable, aunque nos cobraron el pan sin avisar.",anecdótico,crítico,REVISAR
+Carta de vinos extensa y sumiller experto.,breve,formal,REVISAR
+El café más malo que probé.,breve,sarcástico,REVISAR
 "Si buscas temazos de los de siempre, este es tu sitio. ¡No paramos de bailar!",coloquial,entusiasta,REVISAR
+Precio excesivo para el producto.,breve,neutral,REVISAR
 Mucha fachada pero luego las raciones son de risa por el precio que tienen.,coloquial,crítico,REVISAR
 Las servilletas son de esas que no limpian nada; cambiarlas por unas de papel absorbente sería mejor.,constructivo,crítico,REVISAR
+Carta de vinos muy limitada a opciones básicas.,neutral,formal,REVISAR
+No merece ni una estrella.,breve,coloquial,REVISAR
+La tortilla estaba seca y el pan no era del día.,neutral,crítico,REVISAR
 Pedí un mojito y me dieron un vaso lleno de azúcar y hierbabuena pasada. Imbebible total.,coloquial,anecdótico,REVISAR
 Para ir una vez y no volver. Hay sitios mucho mejores y más baratos por el barrio.,coloquial,crítico,REVISAR
-La tortilla de patatas es de otro planeta.,breve,entusiasta,REVISAR
+Cantidades generosas. El local necesita una reforma.,breve,neutral,REVISAR
+Un horror de experiencia.,breve,sarcástico,REVISAR
 La carta es un código QR que no carga. Una excelente forma de fomentar el misterio en la gastronomía.,sarcástico,crítico,REVISAR
-Limpio y correcto. No se puede pedir más.,breve,entusiasta,REVISAR
-El servicio de terraza conlleva un suplemento que no se ve reflejado en una mayor agilidad.,neutral,crítico,REVISAR
+Diez de diez en todo.,breve,entusiasta,REVISAR
+Sabores interesantes pero algunos platos no encajaban.,breve,constructivo,REVISAR
+Presentación de los platos sencilla y enfocada en el producto.,neutral,formal,REVISAR
 Un ejercicio de soberbia culinaria que ignora por completo el disfrute del comensal.,formal,sarcástico,REVISAR
-Tardaron mucho para ser un bar de carretera.,breve,crítico,REVISAR
 ¡La mejor relación calidad-precio de la historia! Copas premium a precios de barrio. ¡Es un auténtico regalo!,entusiasta,formal,REVISAR
-No vuelvo. Mala educación por parte de la dueña.,breve,crítico,REVISAR
 "La decoración industrial mola mucho, aunque la iluminación es tan tenue que apenas se lee la lista de precios de la pared.",constructivo,sarcástico,REVISAR
-"Propuesta gastronómica de autor con productos locales. La alcachofa confitada estaba deliciosa, aunque el postre resultó excesivamente dulce.",neutral,formal,REVISAR
 El parking es de tierra y se levanta muchísimo polvo que entra hasta el comedor. La ensaladilla estaba aceptable.,crítico,sarcástico,REVISAR
-El guiso de ternera estaba increíble.,breve,crítico,REVISAR
-Bebidas normales. El local es algo pequeño.,breve,neutral,REVISAR
+Lo mejor: la rapidez y el sabor.,breve,entusiasta,REVISAR
 El aire acondicionado goteaba sobre la mesa donde estábamos sentados. Una falta de mantenimiento lamentable.,crítico,formal,REVISAR
 Un abuso total de los sentidos. Nadie debería tener permitido cocinar así de bien.,sarcástico,coloquial,REVISAR
 "La cristalería es de calidad, pero nos sirvieron una copa con una marca de agua.",constructivo,anecdótico,REVISAR
-Me encanta la decoración y los cócteles son de 10.,breve,entusiasta,REVISAR
+Mesas muy pegadas y mucho ruido. No es acogedor.,breve,crítico,REVISAR
+Tienen buena variedad de refrescos y combinados. La limpieza de los baños es correcta.,neutral,formal,REVISAR
 "Sin duda, uno de los templos de la gastronomía actual. La estrella está más que justificada.",entusiasta,coloquial,REVISAR
+"Propuesta india contemporánea muy elegante. Los currys son aromáticos y suaves, aunque nos hubiera gustado algo más de variedad en los panes.",neutral,constructivo,REVISAR
 La vajilla es una obra de arte. Consultad la historia de los artesanos locales que la fabrican.,constructivo,sarcástico,REVISAR
 Nos trajeron la cuenta con errores y encima se pusieron bordes al reclamar.,coloquial,crítico,REVISAR
 El aperitivo de cortesía era un cuenco con tres aceitunas para cuatro personas. Un detalle algo escaso que podrían mejorar fácilmente.,constructivo,crítico,REVISAR
-"La iluminación de neón le da un punto muy moderno al local, aunque para comer algo de picar se veía bastante poco.",anecdótico,constructivo,REVISAR
-Perdí el móvil entre los sofás y el personal estuvo buscándolo conmigo hasta que apareció. ¡Gente de diez!,anecdótico,neutral,REVISAR
+"El camarero tiró la caña con tanta maestría que le hice un vídeo para enseñárselo a mis amigos. La crema de la espuma era perfecta, como debe ser.",anecdótico,sarcástico,REVISAR
 Las croquetas estaban frías en el centro. Sugiero controlar mejor el fuego para que se hagan bien por dentro sin quemarse por fuera.,constructivo,crítico,REVISAR
+"Carta de raciones tradicional. Croquetas, ensaladilla y queso. Calidad media-alta.",neutral,formal,REVISAR
+La sopa de picadillo que probamos aquí ha sido el mejor remedio para el resfriado que he tenido nunca.,anecdótico,entusiasta,REVISAR
 "¡Súper animado y divertido! Siempre que vengo me lo paso pipa, ¡aunque el precio de la entrada es un pelín caro!",entusiasta,coloquial,REVISAR
-Es un sitio correcto para tomar una caña. Las tapas son sencillas pero cumplen su función.,neutral,coloquial,REVISAR
-Ofrecen platos tradicionales bien elaborados a un precio razonable.,neutral,breve,REVISAR
-No entiendo las estrellas. Comida insípida y muy cara.,breve,crítico,REVISAR
+Un ambiente selecto donde se cuida hasta el más mínimo detalle floral.,neutral,constructivo,REVISAR
+"Hicimos un 'afterwork' improvisado y acabamos probando media carta de grifos. La calidad es indiscutible y el trato muy cercano. Lástima que el aire acondicionado estuviera tan fuerte, terminamos tiritando.",anecdótico,sarcástico,REVISAR
+Comedor limpio y ordenado durante todo el servicio de comidas.,neutral,formal,REVISAR
+"Pedí una ensalada sencilla y me trajeron tomates que sabían a tomate de verdad, recién cogidos del huerto de detrás.",anecdótico,sarcástico,REVISAR
+Las patatas eran congeladas a pesar de ser un mesón.,neutral,crítico,REVISAR
+No tenían de nada de lo que pedimos.,breve,crítico,REVISAR
+No merece la pena el precio.,breve,crítico,REVISAR
 Los vasos estaban empañados y con marcas de dedos. La limpieza general del establecimiento es inexistente.,crítico,neutral,REVISAR
-Intentamos jugar al billar pero el tapete estaba tan roto que la bola se desviaba sola. Cobrar por eso me parece un timo.,anecdótico,sarcástico,REVISAR
 "La terraza es agradable, pero las mesas están siempre pegajosas. Falta mucha limpieza en el mobiliario exterior.",crítico,constructivo,REVISAR
 Ambiente selecto y tranquilo. La limpieza y el orden son una constante en el local.,formal,neutral,REVISAR
-"Poca higiene en la barra, decepcionante.",breve,formal,REVISAR
 Las mesas de la entrada están demasiado juntas. Te sientes como si estuvieras comiendo con los desconocidos de al lado.,crítico,sarcástico,REVISAR
+Limpieza correcta de las mesas y los cubiertos.,neutral,formal,REVISAR
 Ni una estrella.,breve,coloquial,REVISAR
-La sopa estaba un poco salada para mi gusto.,neutral,coloquial,REVISAR
+Mesas pegajosas y falta de servilletas.,neutral,crítico,REVISAR
 "¡Brutal la selección de cervezas! Me flipó el sitio, aunque tardaron un pelín en darnos mesa.",entusiasta,coloquial,REVISAR
-Un timo. Te cobran la artesana a precio de oro.,breve,coloquial,REVISAR
-Sostenibilidad y km 0 llevados a la alta cocina con una elegancia asombrosa.,neutral,formal,REVISAR
-Menú infantil disponible con opciones sencillas y equilibradas.,neutral,breve,REVISAR
 "Alcohol del malo a precio de oro. Una y no más, que mi hígado no está para estas bromas.",coloquial,crítico,REVISAR
-Carta de vinos extensa y sumiller experto.,breve,formal,REVISAR
 El dueño es un maleducado que no sabe tratar a la gente. Nos hizo sentir incómodos desde que entramos por la puerta.,crítico,anecdótico,REVISAR
-"Restaurante de alta cocina con un enfoque tradicional. La paletilla de lechal estaba muy bien asada, pero echamos de menos algo más de innovación.",neutral,constructivo,REVISAR
+Las carnes a la brasa tienen un punto de asado adecuado.,neutral,constructivo,REVISAR
 Los productos de bollería industrial no justifican el precio de venta al público fijado.,neutral,formal,REVISAR
-El camarero estaba un poco agobiado. Comida ok.,breve,coloquial,REVISAR
 "Ambientazo a tope, pero me cobraron dos euros por un vaso de agua y me quedé a cuadros.",coloquial,anecdótico,REVISAR
-Nunca me trataron tan mal.,breve,sarcástico,REVISAR
+Técnica depurada en cada plato; sala ruidosa.,breve,formal,REVISAR
 Los vasos tenían marcas de labios que no eran los míos. Gracias por fomentar el intercambio cultural de ADN.,sarcástico,crítico,REVISAR
-Carta de vinos muy limitada a opciones básicas.,neutral,formal,REVISAR
 ¡Amo la decoración vintage! Te transporta a otra época mientras disfrutas de una copa perfectamente preparada. ¡Mágico!,entusiasta,sarcástico,REVISAR
 "Qué bien tiran la cerveza, con su medida justa de espuma.",coloquial,entusiasta,REVISAR
 "Rapidez absoluta, ideal si tienes prisa. Eso sí, no esperes una atención personalizada ni demasiada amabilidad.",crítico,breve,REVISAR
 Cerveza servida a una temperatura inadecuada que impedía su correcto consumo.,formal,neutral,REVISAR
+Maleducados en barra. Te ignoran si no eres conocido.,breve,sarcástico,REVISAR
 "Personal amable, pero hubo descoordinación y nos preguntaron tres veces por la bebida.",constructivo,anecdótico,REVISAR
 "¡Qué ricas las tostas de jamón! Con un buen chorro de aceite, ¡un manjar total!",entusiasta,coloquial,REVISAR
 El zumo de naranja estaba amargo porque las naranjas debían de estar pasadas. No lo cambiaron tras la queja.,crítico,neutral,REVISAR
-El café estaba regular pero el trato fue bueno.,breve,constructivo,REVISAR
-Trato muy distante. Parecía que tenían prisa por echarnos.,breve,crítico,REVISAR
 Mucha variedad de grifos pero la mitad estaban cerrados. Menudo timo.,coloquial,constructivo,REVISAR
+El ambiente es tan sano que me siento segura viniendo a tomarme algo sola después del trabajo.,anecdótico,sarcástico,REVISAR
 "De las mejores cervecerías del barrio, buen rollo siempre.",coloquial,entusiasta,REVISAR
 "Un bar mediocre. No es que nada esté mal del todo, pero tampoco hay nada que destaque para querer volver pronto.",crítico,coloquial,REVISAR
 "El pincho de tortilla es gloria bendita, ¡tenéis que probarlo!",coloquial,sarcástico,REVISAR
-Vinos de la tierra ricos.,breve,formal,REVISAR
+Instalaciones cómodas y bien climatizadas. El café es de una calidad superior a la media.,formal,neutral,REVISAR
 Retraso injustificado en la entrega del pedido a pesar de no haber muchos clientes.,formal,crítico,REVISAR
 La acústica es tan mala que salimos con dolor de cabeza por los gritos de la cocina.,crítico,sarcástico,REVISAR
-Las patatas fritas son naturales y están bien escurridas.,neutral,coloquial,REVISAR
+"Restaurante sofisticado con una buena bodega. La carrillera de buey estaba muy melosa, aunque el postre tardó bastante en salir de cocina.",neutral,crítico,REVISAR
 "El menú del día es variado, pero las mesas están demasiado juntas y apenas hay intimidad para hablar.",crítico,constructivo,REVISAR
-Un horror de experiencia.,breve,sarcástico,REVISAR
-La limpieza de la vajilla es claramente insuficiente.,neutral,formal,REVISAR
+Limpieza general del establecimiento deficiente.,neutral,formal,REVISAR
 Excelente ubicación y un interiorismo que invita a prolongar la estancia. Un diez.,formal,entusiasta,REVISAR
 Atención rápida incluso en momentos de máxima ocupación del local. Limpieza constante.,formal,neutral,REVISAR
-Siempre que vengo me tratan de lujo. Muy cracks.,breve,coloquial,REVISAR
-¡Qué maravilla!,breve,entusiasta,REVISAR
-Gran variedad de tés y cafés.,breve,formal,REVISAR
+La tortilla de patatas es de otro planeta.,breve,entusiasta,REVISAR
 La música está tan alta que es imposible mantener una conversación sin tener que gritar. No es un ambiente agradable.,crítico,coloquial,REVISAR
-Mucho calor y moscas en el comedor. Mal.,breve,crítico,REVISAR
+Salí de allí con la sensación de que el mundo todavía es un lugar amable. Gracias por la comida y por el trato.,anecdótico,sarcástico,REVISAR
+El pan que acompañaba las tapas estaba correoso.,neutral,crítico,REVISAR
 Mantenimiento del local muy pobre y descuidado.,neutral,breve,REVISAR
-Mesas pegajosas y falta de servilletas.,neutral,crítico,REVISAR
+"Cocina china de lujo con presentaciones muy cuidadas. El dim sum de bogavante es un acierto, aunque la carta es un tanto confusa de leer.",neutral,constructivo,REVISAR
 Correcto mantenimiento de la vajilla y cristalería. El café se sirve con diligencia.,formal,neutral,REVISAR
-"Propuesta culinaria interesante con influencias francesas. Los postres están a la altura, aunque el maridaje propuesto resultó algo previsible.",neutral,constructivo,REVISAR
 "Siempre que vengo salgo encantado. ¡Seguid así, cracks!",coloquial,entusiasta,REVISAR
-Maleducados en barra. Te ignoran si no eres conocido.,breve,sarcástico,REVISAR
 Técnica de vanguardia mal ejecutada. El aire de remolacha desapareció antes de llegar a la mesa y el pescado estaba seco. Mucho fuego artificial para tan poco fondo.,crítico,sarcástico,REVISAR
-¡Un paraíso para los cafeteros! La calidad del grano es simplemente suprema.,entusiasta,formal,REVISAR
-"Un espacio elegante con un servicio de sala muy profesional. La carta de vinos es extensa, aunque las referencias por copa son algo limitadas.",neutral,formal,REVISAR
-Cristalería opaca y con marcas visibles de uso.,neutral,formal,REVISAR
-El local requiere una renovación estética y funcional de sus instalaciones principales.,neutral,formal,REVISAR
+¡Un paraíso para los cafeteros! La calidad del grano es simplemente suprema.,entusiasta,neutral,REVISAR
+Poca variedad de vinos y atención justa.,neutral,breve,REVISAR
+Atención rápida por parte del personal y limpieza correcta en el comedor.,neutral,formal,REVISAR
+Cubiertos con manchas de suciedad seca.,neutral,crítico,REVISAR
 "Un lujo de sitio en pleno centro. La presentación de los platos es una obra de arte. Eso sí, las bebidas te suben la cuenta que da gusto.",coloquial,entusiasta,REVISAR
 No tienen ninguna opción para personas con intolerancias. En los tiempos que corren es inadmisible tanta desinformación.,crítico,constructivo,REVISAR
 Raciones de embutido muy escasas y mal cortadas.,crítico,breve,REVISAR
 "Rápido, rico y barato. Las tres 'B' se cumplen aquí a rajatabla.",coloquial,breve,REVISAR
-Comida aceptable pero el servicio fue algo lento.,neutral,breve,REVISAR
-Ambiente genial y el personal sabe mucho de cerveza.,breve,neutral,REVISAR
-No merece ni una estrella.,breve,coloquial,REVISAR
-Poca variedad de vinos y atención justa.,neutral,breve,REVISAR
+"La cristalería y vajilla son de lujo, pero la comida llegó templada a la mesa.",crítico,neutral,REVISAR
 "La sopa de ajo te resucita, ¡qué maravilla! Un poco de sal de más, pero muy auténtica.",coloquial,constructivo,REVISAR
 Café servido a una temperatura excesiva que afecta a sus notas organolépticas.,formal,breve,REVISAR
-El aire acondicionado no funcionaba en plena ola de calor.,neutral,crítico,REVISAR
-El servicio en barra es eficiente. Las mesas de fuera son un poco pequeñas pero cómodas.,neutral,constructivo,REVISAR
-La experiencia global no alcanzó los niveles mínimos de satisfacción esperados por el precio.,neutral,crítico,REVISAR
+"Restaurante de alta cocina con un enfoque tradicional. La paletilla de lechal estaba muy bien asada, pero echamos de menos algo más de innovación.",neutral,constructivo,REVISAR
+Cobro de suplementos no especificados en la lista oficial.,neutral,formal,REVISAR
 "¡Súper guay el concepto del local! La energía es contagiosa, ¡aunque costaba mucho hablar con los colegas!",entusiasta,coloquial,REVISAR
-"Servicio correcto, aunque tardaron mucho en retirar la vajilla sucia de nuestra mesa tras terminar.",constructivo,breve,REVISAR
-Bien pero me pareció un poco pretencioso.,breve,anecdótico,REVISAR
-Un sitio de diez para merendar.,breve,coloquial,REVISAR
-Nos cobraron entrada con copa y luego resulta que solo podías pedir marcas blancas. Un engaño total.,coloquial,anecdótico,REVISAR
-El suelo estaba tan pegajoso que se me rompió la suela de la,anecdótico,sarcástico,REVISAR
+"Servicio correcto, aunque tardaron mucho en retirar la vajilla sucia de nuestra mesa tras terminar.",constructivo,neutral,REVISAR
+¡Espectacular!,breve,entusiasta,REVISAR
+Nos cobraron entrada con copa y luego resulta que solo podías pedir marcas blancas. Un engaño total.,coloquial,crítico,REVISAR
+"La luz del local por la tarde es muy bonita, pero el aire acondicionado soplaba tan fuerte que me quedé helado.",anecdótico,sarcástico,REVISAR
 El camarero de la barra fue increíblemente borde cuando le pedí un poco más de leche para el café.,crítico,anecdótico,REVISAR
 "Mi cuenta bancaria me ha dejado de hablar, pero mi paladar está de fiesta nacional.",sarcástico,anecdótico,REVISAR
-Precios normales para la zona y el tipo de comida.,neutral,formal,REVISAR
-No nos pusieron ni unos kikos con la cerveza. Feo.,breve,coloquial,REVISAR
+Súper acogedor.,breve,entusiasta,REVISAR
 "La lubina salvaje sabía a lodo, señal de que el producto no era de la calidad que anunciaban en la carta. Un fallo de origen grave.",crítico,formal,REVISAR
 El aire acondicionado estaba tan fuerte que tuvimos que estar con la chaqueta puesta dentro del local. Muy incómodo.,crítico,sarcástico,REVISAR
+El camarero nos tiró los cubiertos sobre la mesa con una elegancia digna de un lanzador de cuchillos de circo.,sarcástico,anecdótico,REVISAR
+Local sin aire acondicionado hace calor en verano.,neutral,breve,REVISAR
 "Los seguratas se pasan de bordes, parece que les debes dinero nada más entrar en el local.",coloquial,crítico,REVISAR
