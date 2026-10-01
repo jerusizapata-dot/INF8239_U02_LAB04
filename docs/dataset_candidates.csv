@@ -1,0 +1,3 @@
+name,url,license,language,rows,target,decision
+Pruebas Nacionales 2016-2024,https://datos.gob.do/dataset/c99df9fc-6d99-4cb3-8f2b-81d5753d51b7,ODbL,es,57586,No tiene variable de texto libre,rejected
+Spanish News,https://huggingface.co/datasets/MarcOrfilaCarreras/spanish-news,MIT,es,10200,category,pending
